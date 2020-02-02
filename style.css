@@ -651,43 +651,6 @@ img {
   .single-testimonial-area:hover .testimonial-content h5 {
     color: #69bc5f; }
 
-    .single-testimonial-area .testimonial-content .tooltip div {
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black;
-}
-
-.single-testimonial-area .testimonial-content .tooltip .tooltiptext span{
-  visibility: hidden;
-  width: 120px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  position: absolute;
-  z-index: 1;
-  top: 150%;
-  left: 50%;
-  margin-left: -60px;
-}
-
-.single-testimonial-area .testimonial-content .tooltip .tooltiptext::after {
-  content: "";
-  position: absolute;
-  bottom: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: transparent transparent black transparent;
-}
-
-.single-testimonial-area .testimonial-content .tooltip:hover .tooltiptext {
-  visibility: visible;
-}
-
-
 /* Top Popular Course Area CSS */
 .single-top-popular-course {
   position: relative;
